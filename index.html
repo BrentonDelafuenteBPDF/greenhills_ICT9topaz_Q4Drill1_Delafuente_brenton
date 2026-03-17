@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q4 Drill 1</title>
+    <style>
+        body{
+            background-image: url(https://static.vecteezy.com/system/resources/thumbnails/017/188/879/small/geometric-dark-background-with-gradient-shapes-composition-good-for-posters-design-illustration-vector.jpg);
+            font-family:Arial;
+        }
+
+        .box{
+            background:#000000;
+            padding:20px;
+            border-radius:15px;
+            width:350px;
+            margin:auto;
+            margin-top:120px;
+            color:rgb(224, 34, 224);
+        }
+
+        button{
+            background:#da0fd7;
+            border:none;
+            padding:8px 15px;
+            border-radius:5px;
+        }
+
+        input{
+            padding:5px;
+            width:200px;
+        }
+
+        .error{
+            color: #c914dd;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="box text-center">
+
+    <h2>Electricity Consumption Classifier</h2>
+    <p>Enter your monthly electricity usage in kW/h.</p>
+
+    <input type="number" id="kwh">
+
+    <button onclick="classify()">Consumption Classification</button>
+    <script src="main.js"></script>
+    <p id="error" class="error"></p>
+
+</div>
+
+
+</body>
+</html>
